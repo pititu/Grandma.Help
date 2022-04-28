@@ -18,5 +18,3 @@ jobs:
         fetch-depth: 0
     - name: Deploy docs
       uses: mhausenblas/mkdocs-deploy-gh-pages@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
