@@ -1,0 +1,58 @@
+site_name: Grandma commands
+site_author: pititiu
+site_url: "https://pititu.github.io/Grandma.Help/"
+
+theme:
+  language: en
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.indexes
+    - navigation.tracking
+    - header.autohide
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - search.share
+    
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+
+nav: 
+  - Bruteforce: bruteforce.md
+  - Images: images.md
+  - Information: information.md
+  - Leet text: leet_text.md
+  - Misc: misc.md
+  - Moderation: 
+    - Moderation: moderation.md
+    - Prune: prune.md
+  - Random: random.md
+  - Remind: remind.md
+  - Scripts: scripts.md
+  - Time zone: time_zone.md
