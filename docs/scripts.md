@@ -1,5 +1,5 @@
 ---
-title: Scripts (WIP)
+title: Scripts _(WIP)_
 ---
 
 # Scripts
