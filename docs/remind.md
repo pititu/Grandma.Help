@@ -13,6 +13,7 @@ Creates a new reminder.
 ### Examples
 * `remind add 10pm` - Creates a reminder that will fire at 10 PM.
 * `remind add 10:25pm` - Creates a reminder that will fire at 10:25 PM.
+* `remind add "September 10 2020 2:30pm" message` - Creates a reminder that will fire on September 10 2022 at 2:30pm.
 
 ## remind add `[timespan]` `[message?]`
 Creates a new reminder.

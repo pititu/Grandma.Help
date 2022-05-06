@@ -44,15 +44,27 @@ markdown_extensions:
   - pymdownx.smartsymbols
 
 nav: 
+  - Home: index.md
   - Bruteforce: bruteforce.md
   - Images: images.md
   - Information: information.md
-  - Leet text: leet_text.md
+  - Leet text: leet-text.md
   - Misc: misc.md
   - Moderation: 
     - Moderation: moderation.md
     - Prune: prune.md
   - Random: random.md
   - Remind: remind.md
-  - Scripts: scripts.md
-  - Time zone: time_zone.md
+  - Scripts:
+    - Home: scripts.md
+    - WIP:
+      - Home: scripts-wip/index.md
+      - Objects:
+        - Channel: scripts-wip/objects/channel.md
+        - Guild: scripts-wip/objects/guild.md
+        - Member: scripts-wip/objects/member.md
+        - User: scripts-wip/objects/user.md
+        - Message: scripts-wip/objects/message.md
+        - Role: scripts-wip/objects/role.md
+        - Color: scripts-wip/objects/color.md
+  - Time zone: time-zone.md
