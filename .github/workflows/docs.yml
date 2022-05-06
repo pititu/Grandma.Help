@@ -7,14 +7,13 @@ on:
       - docs/**
       - mkdocs.yml
       - .github/workflows/docs.yml
-  pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
+    - name: Checkout main
+      uses: actions/checkout@v2
+
     - name: Deploy docs
       uses: mhausenblas/mkdocs-deploy-gh-pages@master
